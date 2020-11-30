@@ -18,6 +18,13 @@ bash ./install_programs.sh
 bash ./post_installation.sh
 ```
 
+## Docker installation
+```bash
+sudo apt install docker.io docker-compose
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
 ## Manual configuration git
 01. Configuration of git
 ```bash
